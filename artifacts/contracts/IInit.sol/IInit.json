@@ -1,0 +1,69 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IInit",
+  "sourceName": "contracts/IInit.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint128",
+          "name": "_nonce",
+          "type": "uint128"
+        },
+        {
+          "internalType": "bool",
+          "name": "_isNonFungible",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amnt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_total",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256[6]",
+          "name": "_points",
+          "type": "uint256[6]"
+        },
+        {
+          "internalType": "address",
+          "name": "_owneraddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_endTime",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "_uri",
+          "type": "string"
+        },
+        {
+          "internalType": "address",
+          "name": "_tokenContractAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "_data",
+          "type": "bytes"
+        }
+      ],
+      "name": "init",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
